@@ -16,4 +16,9 @@ export class Player {
     this.ctx.arc(this.x, this.y, this.radius, 0, Math.PI * 2)
     this.ctx.fill()
   }
+
+  update(x = this.x, y = this.y) {
+    this.x = x
+    this.y = y
+  }
 }
