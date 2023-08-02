@@ -18,7 +18,8 @@ export class Game {
     core.init()
 
     this.id = setInterval(() => {
+      // Main game loop
       core.update()
-    }, 5000)
+    }, 1000 / this.fps)
   }
 }
