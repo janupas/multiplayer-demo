@@ -17,7 +17,7 @@ export class Player {
     this.ctx.fill()
   }
 
-  update(x = this.x, y = this.y) {
+  update(x, y) {
     this.x = x
     this.y = y
   }
