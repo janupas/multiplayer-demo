@@ -8,6 +8,7 @@ export class Player {
     this.ctx = ctx
     this.radius = 30
     this.color = 'red'
+    this.v = 10
   }
 
   draw() {
